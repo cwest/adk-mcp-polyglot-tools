@@ -1,0 +1,59 @@
+# Rust
+# Ignore build artifacts and caches
+/zoo_mcp_server_rust/target/
+
+# Python
+# Ignore Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore virtual environments
+/zoo_adk_agent/.env
+/zoo_adk_agent/.venv
+/zoo_adk_agent/env/
+/zoo_adk_agent/venv/
+/zoo_adk_agent/ENV/
+/zoo_adk_agent/venv.bak/
+/zoo_adk_agent/env.bak/
+
+# Ignore distribution and build artifacts
+/zoo_adk_agent/build/
+/zoo_adk_agent/dist/
+*.egg-info/
+*.egg
+
+# Ignore other Python-related files
+/zoo_adk_agent/.Python
+/zoo_adk_agent/develop-eggs/
+/zoo_adk_agent/downloads/
+/zoo_adk_agent/eggs/
+/zoo_adk_agent/.eggs/
+/zoo_adk_agent/lib/
+/zoo_adk_agent/lib64/
+/zoo_adk_agent/parts/
+/zoo_adk_agent/sdist/
+/zoo_adk_agent/var/
+/zoo_adk_agent/wheels/
+/zoo_adk_agent/.installed.cfg
+/zoo_adk_agent/MANIFEST
+
+# Editor-specific files
+# Visual Studio Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Vim
+*.swp
+*~
+*.swo
+
+# Operating System files
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
