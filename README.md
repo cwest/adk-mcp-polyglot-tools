@@ -144,8 +144,6 @@ curl -X POST $AGENT_URL/run_sse \
 You should receive a JSON response from the agent containing details about
 lions, which it fetched securely from the Rust MCP server.
 
-````
-
 ## Teardown
 
 To avoid incurring future charges, delete the Cloud Run services.
@@ -153,4 +151,4 @@ To avoid incurring future charges, delete the Cloud Run services.
 ```sh
 gcloud run services delete zoo-mcp-server-rust --region=$REGION --quiet
 gcloud run services delete zoo-adk-agent --region=$REGION --quiet
-````
+```
